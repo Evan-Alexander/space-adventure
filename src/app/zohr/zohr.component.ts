@@ -20,4 +20,6 @@ export class ZohrComponent implements OnInit {
     console.log(this.scenerios);
   }
 
+
+
 }

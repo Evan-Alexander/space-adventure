@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FantasyWorldComponent } from './fantasy-world/fantasy-world.component';
 import { ZohrComponent } from './zohr/zohr.component';
+import { ZohrScenerioComponent } from './zohr-scenerio/zohr-scenerio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FantasyWorldComponent,
-    ZohrComponent
+    ZohrComponent,
+    ZohrScenerioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+<!-- <div class="well" *ngFor='let scenerio of scenerios'>
+  <h4 (click)="goToNextScenerio(scenerio)">{{scenerio.name}}</h4>
+</div> -->
+
+{{scenerioToDisplay.name}} <br>
+{{scenerioToDisplay.description}}<br>
+
+{{scenerioToDisplay.action1Id}}<br>
+{{scenerioToDisplay.action2Id}}<br>
+<button class='btn' (click)="goToNextScenerio(scenerioToDisplay.action1Id)">{{scenerioToDisplay.action1}}</button> <br>
+<button class='btn' (click)="goToNextScenerio(scenerioToDisplay.action2Id)">{{scenerioToDisplay.action2}}</button> <br>

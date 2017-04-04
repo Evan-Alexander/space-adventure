@@ -5,6 +5,7 @@ import { Character } from './character.model';
 import { Scenerio } from './scenerio.model';
 import { FantasyWorldComponent } from './fantasy-world/fantasy-world.component';
 import { ZohrComponent } from './zohr/zohr.component';
+import { ZohrScenerioComponent } from './zohr-scenerio/zohr-scenerio.component';
 
 const appRoutes: Routes = [
   {
@@ -18,6 +19,10 @@ const appRoutes: Routes = [
   {
     path: 'zohr',
     component: ZohrComponent
+  },
+  {
+    path: 'zohr/:eventId',
+    component: ZohrScenerioComponent 
   }
 ];
 

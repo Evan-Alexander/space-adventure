@@ -6,7 +6,7 @@ export const SCENERIO: Scenerio[] = [
    "Explore the Foothills",
    "While wandering through the trees, you see a creature, about the size of a dog.  What do you do?",
    "Try and communicate to it, hoping it could lead you to a food source.",
-   "Try to kill it and eat it.",
+   "Try to kill and eat it.",
     2,
     3,
     ),

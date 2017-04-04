@@ -11,4 +11,13 @@ export class ScenerioService {
     return SCENERIO;
   }
 
+  getScenerioById(eventId: number) {
+    console.log("loading");
+    for(var i = 0; i<=SCENERIO.length - 1; i++) {
+      if (SCENERIO[i].eventId === eventId) {
+        return SCENERIO[i];
+      }
+    }
+  }
+
 }

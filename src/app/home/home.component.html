@@ -1,0 +1,15 @@
+<h2>Welcome to Space Adventures!</h2>
+
+
+<div *ngIf='show'>
+  <p>Create your character now:</p>
+  <label>New Name</label>
+  <input #newName>
+  <input #newId>
+  <button (click)="submitNewName(newName.value, newId.value); newName.value='';" (click)="show = !show">Create Account</button>
+
+</div>
+
+<div *ngIf='newCharacter'>
+  <h3>Your character name is: {{newCharacter.name}}</h3>
+</div>

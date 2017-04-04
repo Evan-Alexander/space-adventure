@@ -34,7 +34,6 @@ export class ZohrScenerioComponent implements OnInit {
   }
   ngDoCheck(){
     this.scenerioToDisplay = this.scenerioService.getScenerioById(this.eventId);
-    console.log(this.scenerioToDisplay);
   }
 
 

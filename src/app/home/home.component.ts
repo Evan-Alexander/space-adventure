@@ -12,7 +12,6 @@ import { Scenerio } from '../scenerio.model';
 
 export class HomeComponent{
   newCharacter: Character;
-  show: boolean = true;
   // constructor() { }
 
   submitNewName(name, id) {
